@@ -29,5 +29,8 @@ new Vue({
         halfNumber: function() {
             this.doubleAndHalfingNumber /= 2
         },
+        resetName: function() {
+            this.name = 'jzelAdmin2006';
+        },
     }
 });
