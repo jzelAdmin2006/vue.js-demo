@@ -34,8 +34,12 @@
         <button v-on:click="resetName">Reset</button>
         <p v-if="name.length > 0">Hello, {{ name }}!</p>
         <p v-else>No name given!</p>
-
+        
+        <strong>Person 2:</strong>
         <p>{{ persons[1].name }}</p>
+
+        <strong>All persons:</strong>
+        <p v-for="person in persons">{{ person.name }}</p>
     </div>
 
     <script src="app.js"></script>
