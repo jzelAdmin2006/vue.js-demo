@@ -12,10 +12,13 @@ new Vue({
 
     methods: {
         greet: function() {
-            return 'Hello ' + this.name + '!';
+            return 'Hello jzelAdmin2006!';
         },
         greetParam: function(name) {
             return 'Hello ' + name + '!';
+        },
+        greetThis: function() {
+            return 'Hello ' + this.person.name + '!';
         }
     }
 });
