@@ -13,6 +13,9 @@ new Vue({
     methods: {
         greet: function() {
             return 'Hello ' + this.name + '!';
+        },
+        greetParam: function(name) {
+            return 'Hello ' + name + '!';
         }
     }
 });
