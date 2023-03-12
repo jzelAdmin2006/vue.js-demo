@@ -9,4 +9,10 @@ new Vue({
             height: 1.85,
         }
     },
+
+    methods: {
+        greet: function() {
+            return 'Hello ' + this.name + '!';
+        }
+    }
 });
