@@ -11,6 +11,10 @@ new Vue({
         websiteTag: '<a href="https://github.com/jzelAdmin2006">Go to best GitHub user (tag).</a>',
         inAndDecreasingNumber: 54,
         doubleAndHalfingNumber: 54,
+        persons: [
+            {name: 'jzelAdmin2006', height: 1.85},
+            {name: 'jzelAdmin2006#2', height: 1.90},
+        ],
     },
 
     methods: {
