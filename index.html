@@ -32,6 +32,8 @@
         <p>
         <input type="text" v-model="name">
         <button v-on:click="resetName">Reset</button>
+        <p v-if="name.length > 0">Hello, {{ name }}!</p>
+        <p v-else>No name given!</p>
     </div>
 
     <script src="app.js"></script>
