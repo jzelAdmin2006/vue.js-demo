@@ -40,6 +40,9 @@
 
         <strong>All persons:</strong>
         <p v-for="person in persons">{{ person.name }}</p>
+
+        <strong>All persons (with numbers):</strong>
+        <p v-for="(person, index) in persons">{{ index + 1}}: {{ person.name }}</p>
     </div>
 
     <script src="app.js"></script>
