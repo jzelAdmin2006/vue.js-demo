@@ -53,5 +53,10 @@ let secondInstance = new Vue({
         changeName: function() {
             firstInstance.name = 'jzelAdmin2006#changedbysecondInstance';
         }
+    },
+    components: {
+        'greeting-component': {
+            template: '<p>Hi, I am a component!</p>'
+        }
     }
 });
