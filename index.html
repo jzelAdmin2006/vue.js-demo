@@ -20,6 +20,10 @@
 
         <h1><a :href="website">Go to best GitHub user.</a></h1>
         <h1 v-html:href="websiteTag">
+
+        <h2>{{ inAndDecreasingNumber }}</h2>
+        <button v-on:click="myValue++">+</button>
+        <button v-on:click="myValue--">-</button>
     </div>
 
     <script src="app.js"></script>

@@ -8,7 +8,8 @@ new Vue({
             height: 1.85,
         },
         website: 'https://github.com/jzelAdmin2006',
-        websiteTag: '<a href="https://github.com/jzelAdmin2006">Go to best GitHub user (tag).</a>'
+        websiteTag: '<a href="https://github.com/jzelAdmin2006">Go to best GitHub user (tag).</a>',
+        inAndDecreasingNumber: 54,
     },
 
     methods: {
