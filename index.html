@@ -43,6 +43,10 @@
 
         <strong>All persons (with numbers):</strong>
         <p v-for="(person, index) in persons">{{ index + 1}}: {{ person.name }}</p>
+
+        <input type="text" placeholder="firstname..." v-model="firstname">
+        <input type="text" placeholder="lastname..." v-model="lastname">
+        <p>fullname: {{fullname}}</p>
     </div>
 
     <script src="app.js"></script>

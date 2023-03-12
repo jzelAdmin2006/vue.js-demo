@@ -15,6 +15,8 @@ new Vue({
             {name: 'jzelAdmin2006', height: 1.85},
             {name: 'jzelAdmin2006#2', height: 1.90},
         ],
+        firstname: '',
+        lastname: '',
     },
 
     methods: {
@@ -36,5 +38,11 @@ new Vue({
         resetName: function() {
             this.name = 'jzelAdmin2006';
         },
+    },
+
+    computed: {
+        fullname: function() {
+            return this.firstname + ' ' + this.lastname;
+        }
     }
 });
