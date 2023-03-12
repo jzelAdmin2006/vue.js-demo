@@ -23,6 +23,7 @@
 
         <h2>{{ inAndDecreasingNumber }}</h2>
         <button v-on:mouseover="inAndDecreasingNumber++">+</button>
+        <button v-on:mouseover.once="inAndDecreasingNumber++">+ (once)</button>
         <button v-on:mouseover="inAndDecreasingNumber--">-</button>
 
         <h2>{{ doubleAndHalfingNumber }}</h2>
