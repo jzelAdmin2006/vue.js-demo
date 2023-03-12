@@ -10,6 +10,7 @@ new Vue({
         website: 'https://github.com/jzelAdmin2006',
         websiteTag: '<a href="https://github.com/jzelAdmin2006">Go to best GitHub user (tag).</a>',
         inAndDecreasingNumber: 54,
+        doubleAndHalfingNumber: 54,
     },
 
     methods: {
@@ -21,6 +22,12 @@ new Vue({
         },
         greetThis: function() {
             return 'Hello ' + this.person.name + '!';
-        }
+        },
+        doubleNumber: function() {
+            this.doubleAndHalfingNumber *= 2
+        },
+        halfNumber: function() {
+            this.doubleAndHalfingNumber /= 2
+        },
     }
 });
