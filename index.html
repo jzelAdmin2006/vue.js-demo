@@ -10,7 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body>
-    <div id="app">
+    <div id="firstInstanceapp">
         <h1>{{ message }} {{name}}</h1>
         <h1>{{ person.name }}</h1>
         <h1>{{ person.height }}</h1>
@@ -47,6 +47,10 @@
         <input type="text" placeholder="firstname..." v-model="firstname">
         <input type="text" placeholder="lastname..." v-model="lastname">
         <p>fullname: {{fullname}} (this is cached)</p>
+    </div>
+
+    <div id="secondInstanceapp">
+        <button v-on:click="changeName">Change name</button>
     </div>
 
     <script src="app.js"></script>

@@ -1,5 +1,5 @@
-new Vue({
-    el: '#app',
+let firstInstance = new Vue({
+    el: '#firstInstanceapp',
     data: {
         name: 'jzelAdmin2006',
         message: 'Hello Vue!',
@@ -43,6 +43,15 @@ new Vue({
     computed: {
         fullname: function() {
             return this.firstname + ' ' + this.lastname;
+        }
+    }
+});
+
+let secondInstance = new Vue({
+    el: '#secondInstanceapp',
+    methods: {
+        changeName: function() {
+            firstInstance.name = 'jzelAdmin2006#changedbysecondInstance';
         }
     }
 });
