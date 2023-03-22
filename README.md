@@ -1,2 +1,2 @@
 # vue.js-demo
-vue.js demo repo for preparation for M294
+vue.js demo repo for personal preparation for external course M294
